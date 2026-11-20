@@ -3,262 +3,378 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MS Precision | Richtkijkers en verrekijkers</title>
+<title>MS Precision | Richtkijkers en verrekijkers voor de jacht</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Inter+Tight:wght@500;600&amp;display=swap" rel="stylesheet">
-<style>
-body{margin:0;background:#F5F3EF}
-a{color:#1B1E1B;text-decoration:none}a:hover{color:#2F3D33}
-.hero-bg{background-image:url(hero.jpg);background-size:cover;background-position:center top}
-.craft-bg{background-image:url(detail-turret.jpg);background-size:cover;background-position:30% center}
-.cat-scope{background-image:url(scope-optima.jpg);background-size:cover;background-position:center 55%}
-.cat-bino{background-image:url(bino-field.jpg);background-size:cover;background-position:center}
-.cat-mount{background-image:url(detail-turret.jpg);background-size:cover;background-position:62% 40%}
-</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="site.css">
 </head>
 <body>
-<div style="font-family: Inter, system-ui, sans-serif; color: #1B1E1B; background: #F5F3EF; min-height: 100vh">
-
-  <!-- service strip -->
-  <div style="background: #2F3D33; color: #E9ECE6; font-size: 13px; padding: 10px 24px; display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; letter-spacing: 0.01em">
-    <span>Gratis verzending vanaf € 150</span>
-    <span>Voor 16:00 besteld, morgen in huis</span>
-    <span>Persoonlijk advies van specialisten</span>
+<div class="topbar">
+  <div class="wrap topbar-in">
+    <span class="tb-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17.5" r="1.6"/><circle cx="17" cy="17.5" r="1.6"/></svg>Gratis verzekerde verzending vanaf € 150</span>
+    <span class="tb-item tb-hide"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>Voor 16:00 besteld, morgen in huis</span>
+    <span class="tb-item tb-hide"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/></svg>10 jaar garantie op MS-optiek</span>
+    <span class="tb-right tb-hide"><a href="#" class="tb-link">Klantenservice</a><span class="tb-sep"></span><a href="#" class="tb-link">Showroom</a><span class="tb-sep"></span><span class="mono">NL</span></span>
   </div>
-
-  <!-- header -->
-  <header style="border-bottom: 1px solid #DDD8CF; background: #F5F3EF">
-    <div style="max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 76px; display: flex; align-items: center; gap: 40px; flex-wrap: wrap">
-      <a href="index.html" style="display: flex; align-items: center; gap: 12px" aria-label="MS Precision home">
-        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#2F3D33" stroke-width="1.6" aria-hidden="true"><circle cx="15" cy="15" r="12"/><circle cx="15" cy="15" r="2.2"/><path d="M15 1v8M15 21v8M1 15h8M21 15h8"/></svg>
-        <span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 21px; letter-spacing: 0.02em"><span style="font-weight: 600">MS</span> <span style="font-weight: 500; color: #4A4F49">Precision</span></span>
-      </a>
-      <nav aria-label="Hoofdmenu" style="display: flex; gap: 28px; font-size: 15px; flex: 1; flex-wrap: wrap">
-        <a href="assortiment.html?c=richtkijkers">Richtkijkers</a>
-        <a href="assortiment.html?c=verrekijkers">Verrekijkers</a>
-        <a href="assortiment.html">Spotting scopes</a>
-        <a href="assortiment.html">Montage &amp; ringen</a>
-        <a href="index.html#advies">Advies</a>
-        <a href="index.html#werkwijze">Over ons</a>
-      </nav>
-      <div style="display: flex; gap: 6px; align-items: center">
-        <button aria-label="Zoeken" style="width: 44px; height: 44px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B1E1B" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
-        <button aria-label="Account" style="width: 44px; height: 44px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B1E1B" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></button>
-        <a href="winkelmand.html" aria-label="Winkelmand" style="height: 44px; padding: 0 12px; display: flex; align-items: center; gap: 8px; font-size: 14px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B1E1B" stroke-width="1.6" aria-hidden="true"><path d="M5 7h14l-1.2 12.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span style="background: #2F3D33; color: #fff; border-radius: 999px; font-size: 12px; min-width: 20px; height: 20px; display: inline-flex; align-items: center; justify-content: center" data-cart-count>2</span></a>
-      </div>
-    </div>
-  </header>
-
-  <!-- hero -->
-  <section class="hero-bg" style="min-height: 660px; display: flex; align-items: flex-start">
-    <div style="max-width: 1280px; width: 100%; margin: 0 auto; padding: 96px 32px 64px; box-sizing: border-box">
-      <div style="max-width: 560px; display: flex; flex-direction: column; gap: 24px">
-        <p style="margin: 0; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #3E4A41; font-weight: 600">Optiek voor jacht en sportschieten</p>
-        <h1 style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 500; font-size: 60px; line-height: 1.04; letter-spacing: -0.02em; color: #1B1E1B">Helder zicht, ook in het eerste licht.</h1>
-        <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #2E332E; max-width: 470px">Richtkijkers en verrekijkers van MS Precision zijn ontwikkeld voor de momenten dat het erop aankomt. Scherp tot in de schemering, betrouwbaar bij elke temperatuur.</p>
-        <div style="display: flex; gap: 12px; flex-wrap: wrap; padding-top: 8px">
-          <a href="product.html" style="background: #2F3D33; color: #fff; padding: 0 26px; height: 50px; display: inline-flex; align-items: center; font-size: 15px; font-weight: 500; border-radius: 2px">Bekijk richtkijkers</a>
-          <a href="assortiment.html?c=verrekijkers" style="border: 1px solid #2F3D33; color: #2F3D33; padding: 0 26px; height: 50px; display: inline-flex; align-items: center; font-size: 15px; font-weight: 500; border-radius: 2px">Verrekijkers</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- trust row -->
-  <section style="border-bottom: 1px solid #DDD8CF">
-    <div style="max-width: 1280px; margin: 0 auto; padding: 28px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px">
-      <div style="display: flex; gap: 14px; align-items: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2F3D33" stroke-width="1.5" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17.5" r="1.6"/><circle cx="17" cy="17.5" r="1.6"/></svg><div><div style="font-weight: 600; font-size: 15px">Gratis verzending</div><div style="font-size: 14px; color: #5E625C">Vanaf € 150, verzekerd</div></div></div>
-      <div style="display: flex; gap: 14px; align-items: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2F3D33" stroke-width="1.5" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><div><div style="font-weight: 600; font-size: 15px">10 jaar garantie</div><div style="font-size: 14px; color: #5E625C">Op alle MS-optiek</div></div></div>
-      <div style="display: flex; gap: 14px; align-items: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2F3D33" stroke-width="1.5" aria-hidden="true"><path d="M4 12a8 8 0 1 0 3-6.2"/><path d="M4 4v4h4"/></svg><div><div style="font-weight: 600; font-size: 15px">30 dagen bedenktijd</div><div style="font-size: 14px; color: #5E625C">Rustig thuis uitproberen</div></div></div>
-      <div style="display: flex; gap: 14px; align-items: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2F3D33" stroke-width="1.5" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z"/><path d="M8 10h8M8 13h5"/></svg><div><div style="font-weight: 600; font-size: 15px">Advies op maat</div><div style="font-size: 14px; color: #5E625C">Van jagers, voor jagers</div></div></div>
-    </div>
-  </section>
-
-  <!-- categories -->
-  <section style="max-width: 1280px; margin: 0 auto; padding: 96px 32px 40px">
-    <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 36px">
-      <h2 style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 500; font-size: 38px; letter-spacing: -0.015em">Kies je optiek</h2>
-      <a href="assortiment.html" style="font-size: 15px; border-bottom: 1px solid #1B1E1B; padding-bottom: 2px">Bekijk het hele assortiment</a>
-    </div>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
-      <a href="assortiment.html?c=richtkijkers" class="cat-scope" style="height: 420px; border-radius: 4px; display: flex; flex-direction: column; justify-content: flex-end; padding: 28px; box-sizing: border-box">
-        <span style="font-size: 13px; color: #5E625C; letter-spacing: 0.08em; text-transform: uppercase">24 modellen</span>
-        <span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 26px; font-weight: 500; margin-top: 6px; display: flex; align-items: center; gap: 10px">Richtkijkers <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B1E1B" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-      </a>
-      <a href="assortiment.html?c=verrekijkers" class="cat-bino" style="height: 420px; border-radius: 4px; display: flex; flex-direction: column; justify-content: flex-end; padding: 28px; box-sizing: border-box">
-        <span style="font-size: 13px; color: #5E625C; letter-spacing: 0.08em; text-transform: uppercase">11 modellen</span>
-        <span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 26px; font-weight: 500; margin-top: 6px; display: flex; align-items: center; gap: 10px">Verrekijkers <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B1E1B" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-      </a>
-      <a href="assortiment.html" class="cat-mount" style="height: 420px; border-radius: 4px; display: flex; flex-direction: column; justify-content: flex-end; padding: 28px; box-sizing: border-box">
-        <span style="font-size: 13px; color: #C9CEC6; letter-spacing: 0.08em; text-transform: uppercase">Ringen, rails, kappen</span>
-        <span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 26px; font-weight: 500; margin-top: 6px; display: flex; align-items: center; gap: 10px; color: #fff">Montage &amp; accessoires <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-      </a>
-    </div>
-  </section>
-
-  <!-- featured products -->
-  <section style="max-width: 1280px; margin: 0 auto; padding: 72px 32px 104px">
-    <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 36px">
-      <div>
-        <p style="margin: 0 0 10px; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #5E625C; font-weight: 600">Uitgelicht</p>
-        <h2 style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 500; font-size: 38px; letter-spacing: -0.015em">Het meest gekozen dit seizoen</h2>
-      </div>
-      <div style="display: flex; gap: 8px">
-        <button aria-label="Vorige" style="width: 44px; height: 44px; border: 1px solid #CFC9BF; background: transparent; border-radius: 2px; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1B1E1B" stroke-width="1.6" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
-        <button aria-label="Volgende" style="width: 44px; height: 44px; border: 1px solid #CFC9BF; background: transparent; border-radius: 2px; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1B1E1B" stroke-width="1.6" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
-      </div>
-    </div>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px">
-      <a href="product.html?id=optima" style="display: flex; flex-direction: column; gap: 14px">
-        <div style="position: relative"><img src="scope-optima.jpg" alt="MS Optima 2.5–15×50 i richtkijker" style="width: 100%; aspect-ratio: 4 / 3.2; object-fit: cover; border-radius: 4px; display: block"><span style="position: absolute; top: 14px; left: 14px; background: #F5F3EF; font-size: 12px; padding: 5px 10px; border-radius: 2px; font-weight: 500">Bestseller</span></div>
-        <div style="display: flex; flex-direction: column; gap: 4px">
-          <span style="font-size: 16px; font-weight: 600">MS Optima 2.5–15×50 i</span>
-          <span style="font-size: 14px; color: #5E625C">Verlicht dradenkruis, 30 mm buis</span>
-        </div>
-        <div style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 16px; font-weight: 500">€ 1.249</span><span style="font-size: 13px; color: #3F6B4A; display: flex; align-items: center; gap: 6px"><span style="width: 7px; height: 7px; border-radius: 9px; background: #3F6B4A"></span>Op voorraad</span></div>
-      </a>
-      <a href="product.html?id=vector" style="display: flex; flex-direction: column; gap: 14px">
-        <img src="scope-tactical.jpg" alt="MS Vector 5–25×56 FFP richtkijker" style="width: 100%; aspect-ratio: 4 / 3.2; object-fit: cover; border-radius: 4px; display: block">
-        <div style="display: flex; flex-direction: column; gap: 4px">
-          <span style="font-size: 16px; font-weight: 600">MS Vector 5–25×56 FFP</span>
-          <span style="font-size: 14px; color: #5E625C">Eerste brandvlak, MRAD-torens</span>
-        </div>
-        <div style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 16px; font-weight: 500">€ 1.689</span><span style="font-size: 13px; color: #3F6B4A; display: flex; align-items: center; gap: 6px"><span style="width: 7px; height: 7px; border-radius: 9px; background: #3F6B4A"></span>Op voorraad</span></div>
-      </a>
-      <a href="product.html?id=hunt" style="display: flex; flex-direction: column; gap: 14px">
-        <img src="scope-hunt.jpg" alt="MS Hunt 1.5–9×40 richtkijker" style="width: 100%; aspect-ratio: 4 / 3.2; object-fit: cover; border-radius: 4px; display: block">
-        <div style="display: flex; flex-direction: column; gap: 4px">
-          <span style="font-size: 16px; font-weight: 600">MS Hunt 1.5–9×40</span>
-          <span style="font-size: 14px; color: #5E625C">Licht en snel, voor drukjacht</span>
-        </div>
-        <div style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 16px; font-weight: 500">€ 749</span><span style="font-size: 13px; color: #8A5A1E; display: flex; align-items: center; gap: 6px"><span style="width: 7px; height: 7px; border-radius: 9px; background: #B07A2E"></span>Nog 3 op voorraad</span></div>
-      </a>
-      <a href="product.html?id=field" style="display: flex; flex-direction: column; gap: 14px">
-        <img src="bino-field.jpg" alt="MS Field 10×42 ED verrekijker" style="width: 100%; aspect-ratio: 4 / 3.2; object-fit: cover; border-radius: 4px; display: block">
-        <div style="display: flex; flex-direction: column; gap: 4px">
-          <span style="font-size: 16px; font-weight: 600">MS Field 10×42 ED</span>
-          <span style="font-size: 14px; color: #5E625C">ED-glas, 780 gram</span>
-        </div>
-        <div style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 16px; font-weight: 500">€ 899</span><span style="font-size: 13px; color: #3F6B4A; display: flex; align-items: center; gap: 6px"><span style="width: 7px; height: 7px; border-radius: 9px; background: #3F6B4A"></span>Op voorraad</span></div>
-      </a>
-    </div>
-  </section>
-
-  <!-- craft band, full-bleed -->
-  <section id="werkwijze" class="craft-bg" style="min-height: 620px; display: flex; align-items: center">
-    <div style="max-width: 1280px; width: 100%; margin: 0 auto; padding: 96px 32px; box-sizing: border-box; display: flex; justify-content: flex-start">
-      <div style="max-width: 440px; display: flex; flex-direction: column; gap: 22px; color: #EEF0EC">
-        <p style="margin: 0; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #B9C0B5; font-weight: 600">Werkwijze</p>
-        <h2 style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 500; font-size: 44px; line-height: 1.08; letter-spacing: -0.015em; color: #fff">Elke kijker wordt gecontroleerd voordat hij de deur uit gaat.</h2>
-        <p style="margin: 0; font-size: 17px; line-height: 1.65; color: #D7DBD4">We testen de klikwaarde van de torens, de parallax en de dichtheid van elk exemplaar. Pas als alles binnen de tolerantie valt, krijgt de kijker zijn certificaat mee in de doos.</p>
-        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; border-top: 1px solid rgba(255,255,255,0.22); padding-top: 22px">
-          <div><div style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 26px; color: #fff">0,1</div><div style="font-size: 13px; color: #B9C0B5">MRAD per klik</div></div>
-          <div><div style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 26px; color: #fff">IP67</div><div style="font-size: 13px; color: #B9C0B5">Waterdicht</div></div>
-          <div><div style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 26px; color: #fff">N₂</div><div style="font-size: 13px; color: #B9C0B5">Stikstofgevuld</div></div>
-        </div>
-        <a href="#" style="color: #fff; font-size: 15px; display: inline-flex; align-items: center; gap: 10px; margin-top: 6px">Lees hoe we testen <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- advice -->
-  <section id="advies" style="max-width: 1280px; margin: 0 auto; padding: 104px 32px">
-    <div style="display: flex; gap: 64px; flex-wrap: wrap">
-      <div style="flex: 1 1 320px; display: flex; flex-direction: column; gap: 18px">
-        <p style="margin: 0; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #5E625C; font-weight: 600">Advies</p>
-        <h2 style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 500; font-size: 38px; line-height: 1.1; letter-spacing: -0.015em">Welke richtkijker past bij jouw jacht?</h2>
-        <p style="margin: 0; font-size: 16px; line-height: 1.65; color: #4A4F49">Vertel ons hoe en waar je jaagt. Onze specialisten adviseren je over vergroting, objectief en dradenkruis, en monteren de kijker desgewenst op je wapen.</p>
-        <a href="#advies-form" style="align-self: flex-start; background: #2F3D33; color: #fff; padding: 0 24px; height: 48px; display: inline-flex; align-items: center; font-size: 15px; font-weight: 500; border-radius: 2px; margin-top: 8px">Plan een adviesgesprek</a>
-      </div>
-      <div style="flex: 2 1 560px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1px; background: #DDD8CF; border: 1px solid #DDD8CF">
-        <a href="product.html?id=optima" style="background: #F5F3EF; padding: 28px; display: flex; flex-direction: column; gap: 12px">
-          <span style="font-size: 13px; color: #5E625C">01</span>
-          <span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 21px; font-weight: 500">Aanzit en schemering</span>
-          <span style="font-size: 15px; line-height: 1.6; color: #4A4F49">Groot objectief van 50 of 56 mm en een verlicht punt voor het laatste licht.</span>
-          <span style="font-size: 14px; margin-top: auto; padding-top: 12px; border-top: 1px solid #DDD8CF">MS Optima 2.5–15×50 i</span>
-        </a>
-        <a href="product.html?id=hunt" style="background: #F5F3EF; padding: 28px; display: flex; flex-direction: column; gap: 12px">
-          <span style="font-size: 13px; color: #5E625C">02</span>
-          <span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 21px; font-weight: 500">Drukjacht</span>
-          <span style="font-size: 15px; line-height: 1.6; color: #4A4F49">Lage vergroting en een ruim beeldveld, zodat je bewegend wild snel oppakt.</span>
-          <span style="font-size: 14px; margin-top: auto; padding-top: 12px; border-top: 1px solid #DDD8CF">MS Hunt 1.5–9×40</span>
-        </a>
-        <a href="product.html?id=vector" style="background: #F5F3EF; padding: 28px; display: flex; flex-direction: column; gap: 12px">
-          <span style="font-size: 13px; color: #5E625C">03</span>
-          <span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 21px; font-weight: 500">Lange afstand</span>
-          <span style="font-size: 15px; line-height: 1.6; color: #4A4F49">Eerste brandvlak en precieze torens voor sportschieten en bergjacht.</span>
-          <span style="font-size: 14px; margin-top: auto; padding-top: 12px; border-top: 1px solid #DDD8CF">MS Vector 5–25×56 FFP</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- binoculars feature -->
-  <section style="background: #ECE8E1">
-    <div style="max-width: 1280px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 36px">
-      <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap">
-        <h2 style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 500; font-size: 38px; letter-spacing: -0.015em">Verrekijkers voor het veld</h2>
-        <a href="assortiment.html?c=verrekijkers" style="font-size: 15px; border-bottom: 1px solid #1B1E1B; padding-bottom: 2px">Alle verrekijkers</a>
-      </div>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 24px">
-        <a href="product.html?id=field" style="display: flex; flex-direction: column; gap: 18px">
-          <img src="bino-field.jpg" alt="MS Field 10×42 ED verrekijker" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 4px; display: block">
-          <div style="display: flex; justify-content: space-between; gap: 16px; align-items: flex-start">
-            <div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 22px; font-weight: 500">MS Field 10×42 ED</span><span style="font-size: 15px; color: #5E625C">Voor aanzit, bersjacht en natuurwaarneming</span></div>
-            <span style="font-size: 17px; font-weight: 500; white-space: nowrap">€ 899</span>
-          </div>
-        </a>
-        <a href="product.html?id=compact" style="display: flex; flex-direction: column; gap: 18px">
-          <img src="bino-compact.jpg" alt="MS Compact 8×32 verrekijker" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 4px; display: block">
-          <div style="display: flex; justify-content: space-between; gap: 16px; align-items: flex-start">
-            <div style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 22px; font-weight: 500">MS Compact 8×32</span><span style="font-size: 15px; color: #5E625C">Past in elke jaszak, 520 gram</span></div>
-            <span style="font-size: 17px; font-weight: 500; white-space: nowrap">€ 549</span>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- newsletter -->
-  <section style="max-width: 1280px; margin: 0 auto; padding: 88px 32px; display: flex; gap: 48px; align-items: center; justify-content: space-between; flex-wrap: wrap">
-    <div style="max-width: 520px; display: flex; flex-direction: column; gap: 12px">
-      <h2 style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 500; font-size: 30px; letter-spacing: -0.01em">Eén keer per maand, alleen wat nuttig is</h2>
-      <p style="margin: 0; font-size: 16px; color: #4A4F49; line-height: 1.6">Nieuwe modellen, onderhoudstips en uitnodigingen voor onze inschietdagen.</p>
-    </div>
-    <form id="newsletter" style="display: flex; gap: 8px; flex: 1 1 380px; max-width: 520px; flex-wrap: wrap">
-      <label for="nl-email" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">E-mailadres</label>
-      <input id="nl-email" type="email" placeholder="Je e-mailadres" style="flex: 1 1 240px; height: 50px; border: 1px solid #CFC9BF; background: #fff; padding: 0 16px; font-size: 15px; font-family: inherit; border-radius: 2px">
-      <button type="submit" style="height: 50px; padding: 0 24px; background: #2F3D33; color: #fff; border: 0; font-size: 15px; font-weight: 500; font-family: inherit; border-radius: 2px; cursor: pointer">Aanmelden</button>
-    </form>
-  </section>
-
-  <!-- footer -->
-  <footer style="background: #1F2622; color: #C9CEC6">
-    <div style="max-width: 1280px; margin: 0 auto; padding: 72px 32px 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 40px">
-      <div style="display: flex; flex-direction: column; gap: 14px">
-        <span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 20px; color: #fff"><span style="font-weight: 600">MS</span> Precision</span>
-        <span style="font-size: 14px; line-height: 1.6">Optiek voor jacht en sportschieten. Getest, ingeschoten en met advies geleverd.</span>
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 14px">
-        <span style="color: #fff; font-weight: 600; margin-bottom: 4px">Assortiment</span>
-        <a href="assortiment.html?c=richtkijkers" style="color: #C9CEC6">Richtkijkers</a><a href="assortiment.html?c=verrekijkers" style="color: #C9CEC6">Verrekijkers</a><a href="assortiment.html" style="color: #C9CEC6">Spotting scopes</a><a href="assortiment.html" style="color: #C9CEC6">Montage &amp; ringen</a>
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 14px">
-        <span style="color: #fff; font-weight: 600; margin-bottom: 4px">Service</span>
-        <a href="#" style="color: #C9CEC6">Verzenden en retour</a><a href="#" style="color: #C9CEC6">Garantie</a><a href="#" style="color: #C9CEC6">Montageservice</a><a href="#" style="color: #C9CEC6">Contact</a>
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 14px">
-        <span style="color: #fff; font-weight: 600; margin-bottom: 4px">Showroom</span>
-        <span>[ADRES]</span><span>[POSTCODE PLAATS]</span><span>Op afspraak, di t/m za</span>
-      </div>
-    </div>
-    <div style="max-width: 1280px; margin: 0 auto; padding: 20px 32px 32px; border-top: 1px solid #36403A; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 13px; color: #9AA197">
-      <span>© 2026 MS Precision</span>
-      <span>iDEAL · Bancontact · Visa · Mastercard · Klarna</span>
-    </div>
-  </footer>
 </div>
+
+<header class="site-header">
+  <div class="wrap header-in">
+    <a href="index.html" class="logo" aria-label="MS Precision home">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="16" cy="16" r="13"/><circle cx="16" cy="16" r="1.8" fill="currentColor"/><path d="M16 1.5v9M16 21.5v9M1.5 16h9M21.5 16h9"/><path d="M16 6.5v2M16 23.5v2M6.5 16h2M23.5 16h2" stroke-width="1"/></svg>
+      <span class="logo-text"><b>MS</b> Precision</span>
+    </a>
+    <nav class="main-nav" aria-label="Hoofdmenu">
+      <div class="nav-item has-mega">
+        <a href="assortiment.html?c=richtkijkers" class="nav-link">Richtkijkers <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a>
+        <div class="mega">
+          <div class="wrap mega-in">
+            <div class="mega-col">
+              <span class="mega-h mono">Op toepassing</span>
+              <a href="assortiment.html?c=richtkijkers">Aanzit en schemering</a>
+              <a href="assortiment.html?c=richtkijkers">Drukjacht</a>
+              <a href="assortiment.html?c=richtkijkers">Bergjacht en lange afstand</a>
+              <a href="assortiment.html?c=richtkijkers">Sportschieten</a>
+            </div>
+            <div class="mega-col">
+              <span class="mega-h mono">Op vergroting</span>
+              <a href="assortiment.html?c=richtkijkers">1 – 6×</a>
+              <a href="assortiment.html?c=richtkijkers">2.5 – 15×</a>
+              <a href="assortiment.html?c=richtkijkers">3 – 18×</a>
+              <a href="assortiment.html?c=richtkijkers">5 – 25×</a>
+            </div>
+            <div class="mega-col">
+              <span class="mega-h mono">Series</span>
+              <a href="product.html?id=hunt">Hunt <span class="mega-note">licht en snel</span></a>
+              <a href="product.html?id=optima">Optima <span class="mega-note">allround</span></a>
+              <a href="product.html?id=vector">Vector <span class="mega-note">precisie</span></a>
+            </div>
+            <a href="product.html?id=vector" class="mega-feature">
+              <img src="scope-tactical.jpg" alt="">
+              <span class="mono mega-tag">Nieuw</span>
+              <span class="mega-feature-t">MS Vector 5–25×56 FFP</span>
+              <span class="mega-note">Bekijk de nieuwe precisiekijker</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-item"><a href="assortiment.html?c=verrekijkers" class="nav-link">Verrekijkers</a></div>
+      <div class="nav-item"><a href="assortiment.html" class="nav-link">Spotting scopes</a></div>
+      <div class="nav-item"><a href="assortiment.html" class="nav-link">Montage</a></div>
+      <div class="nav-item"><a href="index.html#keuzehulp" class="nav-link">Keuzehulp</a></div>
+      <div class="nav-item"><a href="index.html#kennisbank" class="nav-link">Kennisbank</a></div>
+    </nav>
+    <div class="header-actions">
+      <label class="search">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <span class="sr">Zoeken</span>
+        <input type="search" placeholder="Zoek op model of vergroting">
+      </label>
+      <button class="icon-btn" aria-label="Account"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></button>
+      <button class="icon-btn" aria-label="Verlanglijst"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button>
+      <a href="winkelmand.html" class="icon-btn cart-btn" aria-label="Winkelmand"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 7h14l-1.2 12.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span class="cart-count" data-cart-count>0</span></a>
+      <button class="icon-btn menu-btn" aria-label="Menu openen"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-photo" role="img" aria-label="Jager met richtkijker op haar geweer kijkt uit over een bosrand"></div>
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <span class="eyebrow mono light">Collectie 2026 · Jacht en sport</span>
+        <h1 class="display">Gemaakt voor<br>het laatste licht.</h1>
+        <p class="lead light">Richtkijkers en verrekijkers die scherp blijven als het donker wordt. Elk exemplaar getest op onze eigen baan voordat het naar je toe komt.</p>
+        <div class="btn-row">
+          <a href="assortiment.html?c=richtkijkers" class="btn btn-light">Bekijk richtkijkers</a>
+          <a href="index.html#keuzehulp" class="btn btn-ghost-light">Start de keuzehulp</a>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <dl class="hero-stats">
+          <div><dt class="mono">Lichttransmissie</dt><dd>tot 93 %</dd></div>
+          <div><dt class="mono">Waterdicht</dt><dd>IP67</dd></div>
+          <div><dt class="mono">Garantie</dt><dd>10 jaar</dd></div>
+        </dl>
+        <a href="product.html?id=vector" class="hero-card">
+          <img src="scope-tactical.jpg" alt="">
+          <span class="hc-text">
+            <span class="mono hc-tag">Nieuw</span>
+            <span class="hc-name">MS Vector 5–25×56 FFP</span>
+            <span class="hc-price">€ 1.689 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- USP -->
+  <section class="usp">
+    <div class="wrap usp-in">
+      <div class="usp-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="1.5"/><path d="M12 2v5M12 17v5M2 12h5M17 12h5"/></svg><div><b>Ingeschoten geleverd</b><span>Op verzoek op je eigen wapen</span></div></div>
+      <div class="usp-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><div><b>10 jaar garantie</b><span>Reparatie in eigen werkplaats</span></div></div>
+      <div class="usp-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12a8 8 0 1 0 3-6.2"/><path d="M4 4v4h4"/></svg><div><b>30 dagen bedenktijd</b><span>Rustig thuis en in het veld proberen</span></div></div>
+      <div class="usp-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z"/><path d="M8 10h8M8 13h5"/></svg><div><b>Advies van jagers</b><span>Bel, mail of kom langs</span></div></div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="eyebrow mono">Assortiment</span><h2 class="h2">Kies je optiek</h2></div>
+        <a href="assortiment.html" class="link-arrow">Hele assortiment <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="cat-grid">
+        <a href="assortiment.html?c=richtkijkers" class="cat cat-lg" style="--img:url(https://images.unsplash.com/photo-1651392069447-61bef37db4f1?auto=format&fit=crop&w=1600&q=80)">
+          <span class="cat-meta mono">01 · 24 modellen</span>
+          <span class="cat-t">Richtkijkers</span>
+          <span class="cat-tags"><span>Drukjacht</span><span>Aanzit</span><span>Lange afstand</span></span>
+        </a>
+        <a href="assortiment.html?c=verrekijkers" class="cat" style="--img:url(https://images.unsplash.com/photo-1524164339415-15a05cf92342?auto=format&fit=crop&w=1200&q=80)">
+          <span class="cat-meta mono">02 · 11 modellen</span>
+          <span class="cat-t">Verrekijkers</span>
+          <span class="cat-tags"><span>8×32</span><span>10×42</span><span>8×56</span></span>
+        </a>
+        <a href="assortiment.html" class="cat" style="--img:url(https://images.unsplash.com/photo-1637092334307-85b5bc80088e?auto=format&fit=crop&w=1200&q=80)">
+          <span class="cat-meta mono">03 · 40+ artikelen</span>
+          <span class="cat-t">Montage en accessoires</span>
+          <span class="cat-tags"><span>Ringen</span><span>Rails</span><span>Lenskappen</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="section pt0">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="eyebrow mono">Uitgelicht</span><h2 class="h2">Het meest gekozen dit seizoen</h2></div>
+        <div class="tabs" role="tablist" aria-label="Productselectie">
+          <button class="tab is-active" data-tab="best" role="tab" aria-selected="true">Bestsellers</button>
+          <button class="tab" data-tab="new" role="tab" aria-selected="false">Nieuw</button>
+          <button class="tab" data-tab="bino" role="tab" aria-selected="false">Verrekijkers</button>
+        </div>
+      </div>
+      <div class="prod-grid" id="homeProducts"></div>
+      <div class="compare-bar" id="compareBar" hidden>
+        <span><b id="compareN">0</b> geselecteerd om te vergelijken</span>
+        <button class="btn btn-dark btn-sm" id="compareGo">Vergelijk</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPOTLIGHT -->
+  <section class="spotlight">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="eyebrow mono">In detail · MS Vector 5–25×56 FFP</span><h2 class="h2">Elke klik telt, op elke afstand.</h2></div>
+        <a href="product.html?id=vector" class="link-arrow">Naar de Vector <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="spot-figure">
+        <img src="scope-tactical.jpg" alt="MS Vector richtkijker in zijaanzicht">
+        <div class="callout up" style="--x:50.4%;--y:46%;--ly:10%">
+          <span class="dot"></span>
+          <span class="c-label"><span class="mono">01</span> Ballistische toren<br><small>0,1 MRAD per klik, zero-stop</small></span>
+        </div>
+        <div class="callout down" style="--x:19%;--y:58%;--ly:86%">
+          <span class="dot"></span>
+          <span class="c-label"><span class="mono">02</span> Objectief 56 mm<br><small>ED-glas, 93 % lichttransmissie</small></span>
+        </div>
+        <div class="callout down" style="--x:50.4%;--y:61%;--ly:86%">
+          <span class="dot"></span>
+          <span class="c-label"><span class="mono">03</span> Windage met vergrendeling<br><small>Geen onbedoelde verstelling</small></span>
+        </div>
+        <div class="callout up" style="--x:75%;--y:55%;--ly:22%">
+          <span class="dot"></span>
+          <span class="c-label"><span class="mono">04</span> Zoomring met werphendel<br><small>5× tot 25× in een kwartslag</small></span>
+        </div>
+      </div>
+      <div class="spec-strip">
+        <div><span class="mono">Brandvlak</span><b>Eerste (FFP)</b></div>
+        <div><span class="mono">Buis</span><b>34 mm</b></div>
+        <div><span class="mono">Verstelbereik</span><b>32 MRAD</b></div>
+        <div><span class="mono">Parallax</span><b>10 m – ∞</b></div>
+        <div><span class="mono">Gewicht</span><b>890 g</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CRAFT split -->
+  <section class="split" id="werkwijze">
+    <div class="split-photo" style="--img:url(https://images.unsplash.com/photo-1651392069447-61bef37db4f1?auto=format&fit=crop&w=1600&q=80)" role="img" aria-label="Jachtgeweer met richtkijker in het gras"></div>
+    <div class="split-panel">
+      <span class="eyebrow mono light">Werkwijze</span>
+      <h2 class="h2 light">Elke kijker wordt gecontroleerd voordat hij de deur uit gaat.</h2>
+      <p class="light-muted">We testen ieder exemplaar afzonderlijk. Pas als alles binnen de tolerantie valt, gaat het testcertificaat mee in de doos.</p>
+      <ol class="steps">
+        <li><span class="mono">01</span><div><b>Klikwaarde</b><span>Elke toren wordt over het volledige bereik nagemeten.</span></div></li>
+        <li><span class="mono">02</span><div><b>Parallax</b><span>Gecontroleerd op 50, 100 en 300 meter.</span></div></li>
+        <li><span class="mono">03</span><div><b>Dichtheid</b><span>Een half uur onder water en een nacht in de vriezer.</span></div></li>
+        <li><span class="mono">04</span><div><b>Certificaat</b><span>Met serienummer en de naam van de tester.</span></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- KEUZEHULP -->
+  <section class="section" id="keuzehulp">
+    <div class="wrap advice">
+      <div class="advice-intro">
+        <span class="eyebrow mono">Keuzehulp</span>
+        <h2 class="h2">Welke richtkijker past bij jouw jacht?</h2>
+        <p class="muted">Beantwoord twee vragen en je ziet direct welke serie het beste aansluit. Twijfel je daarna nog, dan denkt een van onze specialisten met je mee.</p>
+        <a href="#" class="link-arrow" data-advice>Liever persoonlijk advies <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="quiz">
+        <fieldset>
+          <legend class="mono">1 · Hoe jaag je meestal?</legend>
+          <div class="choice-row" data-q="type">
+            <button class="choice is-active" data-v="aanzit">Aanzit</button>
+            <button class="choice" data-v="druk">Drukjacht</button>
+            <button class="choice" data-v="berg">Bergjacht</button>
+            <button class="choice" data-v="sport">Sportschieten</button>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend class="mono">2 · Op welke afstand schiet je?</legend>
+          <div class="choice-row" data-q="dist">
+            <button class="choice" data-v="kort">Tot 100 m</button>
+            <button class="choice is-active" data-v="mid">100 – 250 m</button>
+            <button class="choice" data-v="lang">Verder dan 250 m</button>
+          </div>
+        </fieldset>
+        <div class="quiz-result" id="quizResult"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BINOCULARS split -->
+  <section class="bino">
+    <div class="wrap bino-in">
+      <div class="bino-photo" style="--img:url(https://images.unsplash.com/photo-1524164339415-15a05cf92342?auto=format&fit=crop&w=1400&q=80)" role="img" aria-label="Jager kijkt door een verrekijker in het bos">
+        <span class="photo-cap mono">MS Field 10×42 ED, bersjacht in de Veluwe</span>
+      </div>
+      <div class="bino-list">
+        <span class="eyebrow mono">Verrekijkers</span>
+        <h2 class="h2">Zien voordat je gezien wordt.</h2>
+        <a href="product.html?id=field" class="bino-row">
+          <img src="bino-field.jpg" alt="">
+          <span class="br-text"><b>MS Field 10×42 ED</b><span class="muted">Voor aanzit, bersjacht en natuur</span><span class="chips"><span class="chip mono">10×</span><span class="chip mono">42 mm</span><span class="chip mono">780 g</span></span></span>
+          <span class="br-price">€ 899</span>
+        </a>
+        <a href="product.html?id=compact" class="bino-row">
+          <img src="bino-compact.jpg" alt="">
+          <span class="br-text"><b>MS Compact 8×32</b><span class="muted">Past in elke jaszak</span><span class="chips"><span class="chip mono">8×</span><span class="chip mono">32 mm</span><span class="chip mono">520 g</span></span></span>
+          <span class="br-price">€ 549</span>
+        </a>
+        <a href="assortiment.html?c=verrekijkers" class="link-arrow">Alle verrekijkers <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MONTAGE -->
+  <section class="section" id="montage">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="eyebrow mono">Montageservice · € 79</span><h2 class="h2">Klaar voor het veld, de dag dat het binnenkomt.</h2></div>
+      </div>
+      <div class="m-steps">
+        <div class="m-step"><span class="m-num mono">01</span><b>Bestel met montage</b><p>Kies bij je richtkijker voor montage en inschieten. Ringen en rail adviseren we op basis van je wapen.</p></div>
+        <div class="m-step"><span class="m-num mono">02</span><b>Wij monteren en schieten in</b><p>Op onze baan, met jouw munitie, op 100 meter. Je krijgt de schijf mee als bewijs.</p></div>
+        <div class="m-step"><span class="m-num mono">03</span><b>Ophalen of laten bezorgen</b><p>Haal je wapen op in de showroom, of laat het verzekerd bezorgen via een erkende vervoerder.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KENNISBANK -->
+  <section class="section pt0" id="kennisbank">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="eyebrow mono">Kennisbank</span><h2 class="h2">Uit het veld</h2></div>
+        <a href="#" class="link-arrow">Alle artikelen <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="art-grid">
+        <a href="#" class="art"><span class="art-img" style="--img:url(https://images.unsplash.com/photo-1446104838475-bc6508184f08?auto=format&fit=crop&w=1000&q=80)"></span><span class="art-meta mono">Techniek · 6 min</span><b>Eerste of tweede brandvlak, wat past bij jou?</b></a>
+        <a href="#" class="art"><span class="art-img" style="--img:url(https://images.unsplash.com/photo-1677939470005-e3266a845311?auto=format&fit=crop&w=1000&q=80)"></span><span class="art-meta mono">Jacht · 4 min</span><b>Zo haal je het meeste uit het laatste licht</b></a>
+        <a href="#" class="art"><span class="art-img" style="--img:url(https://images.unsplash.com/photo-1444724334165-e7050f2229a1?auto=format&fit=crop&w=1000&q=80)"></span><span class="art-meta mono">Onderhoud · 3 min</span><b>Beslagen lenzen voorkomen in de winter</b></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq-sec" id="faq">
+    <div class="wrap faq">
+      <div><span class="eyebrow mono">Veelgestelde vragen</span><h2 class="h2">Goed om te weten</h2><p class="muted">Staat je vraag er niet bij? <a href="#" data-advice class="u">Vraag het een specialist</a>.</p></div>
+      <div class="faq-list">
+        <details open><summary>Kan ik een richtkijker eerst in de showroom proberen?</summary><p>Ja. Maak een afspraak en we zetten de modellen die bij jouw jacht passen voor je klaar. Je kunt ze vergelijken bij daglicht en in onze schemerkamer.</p></details>
+        <details><summary>Monteren jullie ook op wapens die niet bij jullie gekocht zijn?</summary><p>Zeker. We monteren en schieten in op elk legaal gehouden wapen. Neem je verlof en munitie mee naar de afspraak.</p></details>
+        <details><summary>Wat valt er onder de garantie van 10 jaar?</summary><p>Alle materiaal- en productiefouten, inclusief het verlies van stikstofvulling of dichtheid. Reparaties gebeuren in onze eigen werkplaats.</p></details>
+        <details><summary>Hoe snel wordt mijn bestelling geleverd?</summary><p>Op werkdagen voor 16:00 besteld is de volgende werkdag in huis. Met montageservice rekenen we drie tot vijf werkdagen.</p></details>
+        <details><summary>Kan ik in termijnen betalen?</summary><p>Ja, via Klarna betaal je in drie termijnen zonder rente.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="newsletter">
+  <div class="wrap nl-in">
+    <div class="nl-text">
+      <span class="eyebrow mono">Nieuwsbrief</span>
+      <h2 class="h3">Eén keer per maand, alleen wat nuttig is.</h2>
+      <p>Nieuwe modellen, onderhoudstips voor het seizoen en uitnodigingen voor onze inschietdagen.</p>
+    </div>
+    <form id="newsletter" class="nl-form">
+      <label for="nl-email" class="sr">E-mailadres</label>
+      <input id="nl-email" type="email" placeholder="Je e-mailadres" required>
+      <button type="submit" class="btn btn-dark">Aanmelden</button>
+      <span class="nl-fine">Afmelden kan altijd met één klik.</span>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-top">
+    <div class="f-brand">
+      <span class="logo-text light"><b>MS</b> Precision</span>
+      <p>Optiek voor jacht en sportschieten. Getest, ingeschoten en met persoonlijk advies geleverd.</p>
+      <div class="f-contact">
+        <span class="mono">[TELEFOONNUMMER]</span>
+        <span class="mono">info@msprecision.nl</span>
+      </div>
+      <div class="f-social">
+        <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg></a>
+      </div>
+    </div>
+    <div class="f-col">
+      <span class="f-h">Assortiment</span>
+      <a href="assortiment.html?c=richtkijkers">Richtkijkers</a><a href="assortiment.html?c=verrekijkers">Verrekijkers</a><a href="assortiment.html">Spotting scopes</a><a href="assortiment.html">Montage en ringen</a><a href="assortiment.html">Accessoires</a>
+    </div>
+    <div class="f-col">
+      <span class="f-h">Service</span>
+      <a href="#">Verzenden en retour</a><a href="#">Garantie en reparatie</a><a href="index.html#montage">Montageservice</a><a href="index.html#faq">Veelgestelde vragen</a><a href="#">Contact</a>
+    </div>
+    <div class="f-col">
+      <span class="f-h">Showroom</span>
+      <span>[ADRES]</span><span>[POSTCODE PLAATS]</span>
+      <span class="f-hours"><span class="mono">di – vr</span> 10:00 – 18:00</span>
+      <span class="f-hours"><span class="mono">za</span> 10:00 – 16:00</span>
+      <a href="#" class="f-cta">Plan een bezoek</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 MS Precision</span>
+    <div class="pay">
+      <span>iDEAL</span><span>Bancontact</span><span>Visa</span><span>Mastercard</span><span>Klarna</span>
+    </div>
+    <span class="f-legal"><a href="#">Voorwaarden</a><a href="#">Privacy</a><a href="#">Cookies</a></span>
+  </div>
+</footer>
 <script src="app.js"></script>
+
 </body>
 </html>
