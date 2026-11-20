@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assortiment | MS Precision</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Inter+Tight:wght@500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F5F3EF}
+a{color:#1B1E1B;text-decoration:none}a:hover{color:#2F3D33}
+.hero-bg{background-image:url(hero.jpg);background-size:cover;background-position:center 60%}
+.craft-bg{background-image:url(detail-turret.jpg);background-size:cover;background-position:30% center}
+.cat-scope{background-image:url(scope-optima.jpg);background-size:cover;background-position:center 55%}
+.cat-bino{background-image:url(bino-field.jpg);background-size:cover;background-position:center}
+.cat-mount{background-image:url(detail-turret.jpg);background-size:cover;background-position:62% 40%}
+</style>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div style="font-family: Inter, system-ui, sans-serif; color: #1B1E1B; background: #F5F3EF; min-height: 100vh">
+
+  <!-- service strip -->
+  <div style="background: #2F3D33; color: #E9ECE6; font-size: 13px; padding: 10px 24px; display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; letter-spacing: 0.01em">
+    <span>Gratis verzending vanaf € 150</span>
+    <span>Voor 16:00 besteld, morgen in huis</span>
+    <span>Persoonlijk advies van specialisten</span>
+  </div>
+
+  <!-- header -->
+  <header style="border-bottom: 1px solid #DDD8CF; background: #F5F3EF">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 76px; display: flex; align-items: center; gap: 40px; flex-wrap: wrap">
+      <a href="index.html" style="display: flex; align-items: center; gap: 12px" aria-label="MS Precision home">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#2F3D33" stroke-width="1.6" aria-hidden="true"><circle cx="15" cy="15" r="12"/><circle cx="15" cy="15" r="2.2"/><path d="M15 1v8M15 21v8M1 15h8M21 15h8"/></svg>
+        <span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 21px; letter-spacing: 0.02em"><span style="font-weight: 600">MS</span> <span style="font-weight: 500; color: #4A4F49">Precision</span></span>
+      </a>
+      <nav aria-label="Hoofdmenu" style="display: flex; gap: 28px; font-size: 15px; flex: 1; flex-wrap: wrap">
+        <a href="assortiment.html?c=richtkijkers">Richtkijkers</a>
+        <a href="assortiment.html?c=verrekijkers">Verrekijkers</a>
+        <a href="assortiment.html">Spotting scopes</a>
+        <a href="assortiment.html">Montage &amp; ringen</a>
+        <a href="index.html#advies">Advies</a>
+        <a href="index.html#werkwijze">Over ons</a>
+      </nav>
+      <div style="display: flex; gap: 6px; align-items: center">
+        <button aria-label="Zoeken" style="width: 44px; height: 44px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B1E1B" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+        <button aria-label="Account" style="width: 44px; height: 44px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B1E1B" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></button>
+        <a href="winkelmand.html" aria-label="Winkelmand" style="height: 44px; padding: 0 12px; display: flex; align-items: center; gap: 8px; font-size: 14px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B1E1B" stroke-width="1.6" aria-hidden="true"><path d="M5 7h14l-1.2 12.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span style="background: #2F3D33; color: #fff; border-radius: 999px; font-size: 12px; min-width: 20px; height: 20px; display: inline-flex; align-items: center; justify-content: center" data-cart-count>2</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="assortiment" style="max-width: 1280px; margin: 0 auto; padding: 22px 32px 104px">
+    <nav aria-label="Kruimelpad" style="font-size: 13px; color: #5E625C; display: flex; gap: 8px; margin-bottom: 40px"><a href="index.html" style="color: #5E625C">Home</a><span>/</span><span id="crumb" style="color: #1B1E1B">Assortiment</span></nav>
+    <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 32px">
+      <div><h1 id="catTitle" style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 500; font-size: 48px; letter-spacing: -0.02em">Assortiment</h1>
+      <p id="catCount" style="margin: 10px 0 0; color: #5E625C; font-size: 15px"></p></div>
+      <div class="tabs" role="group" aria-label="Filter">
+        <button class="pill" data-cat="">Alles</button><button class="pill" data-cat="richtkijkers">Richtkijkers</button><button class="pill" data-cat="verrekijkers">Verrekijkers</button>
+      </div>
+    </div>
+    <div id="grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 32px 24px"></div>
+  </main>
+<!-- footer -->
+  <footer style="background: #1F2622; color: #C9CEC6">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 72px 32px 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 40px">
+      <div style="display: flex; flex-direction: column; gap: 14px">
+        <span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 20px; color: #fff"><span style="font-weight: 600">MS</span> Precision</span>
+        <span style="font-size: 14px; line-height: 1.6">Optiek voor jacht en sportschieten. Getest, ingeschoten en met advies geleverd.</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 14px">
+        <span style="color: #fff; font-weight: 600; margin-bottom: 4px">Assortiment</span>
+        <a href="assortiment.html?c=richtkijkers" style="color: #C9CEC6">Richtkijkers</a><a href="assortiment.html?c=verrekijkers" style="color: #C9CEC6">Verrekijkers</a><a href="assortiment.html" style="color: #C9CEC6">Spotting scopes</a><a href="assortiment.html" style="color: #C9CEC6">Montage &amp; ringen</a>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 14px">
+        <span style="color: #fff; font-weight: 600; margin-bottom: 4px">Service</span>
+        <a href="#" style="color: #C9CEC6">Verzenden en retour</a><a href="#" style="color: #C9CEC6">Garantie</a><a href="#" style="color: #C9CEC6">Montageservice</a><a href="#" style="color: #C9CEC6">Contact</a>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 14px">
+        <span style="color: #fff; font-weight: 600; margin-bottom: 4px">Showroom</span>
+        <span>[ADRES]</span><span>[POSTCODE PLAATS]</span><span>Op afspraak, di t/m za</span>
+      </div>
+    </div>
+    <div style="max-width: 1280px; margin: 0 auto; padding: 20px 32px 32px; border-top: 1px solid #36403A; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 13px; color: #9AA197">
+      <span>© 2026 MS Precision</span>
+      <span>iDEAL · Bancontact · Visa · Mastercard · Klarna</span>
+    </div>
+  </footer>
+</div>
+<script src="app.js"></script>
+<script>
+(function(){
+  var P=window.MS_PRODUCTS, eur=window.MS_EUR;
+  var grid=document.getElementById('grid');
+  function draw(cat){
+    var list=P.filter(function(p){return !cat||p.cat===cat;});
+    var t=cat?cat.charAt(0).toUpperCase()+cat.slice(1):'Assortiment';
+    document.getElementById('catTitle').textContent=t; document.getElementById('crumb').textContent=t;
+    document.getElementById('catCount').textContent=list.length+' modellen';
+    document.querySelectorAll('.tabs .pill').forEach(function(b){b.classList.toggle('is-active',b.dataset.cat===cat);});
+    grid.innerHTML=list.map(function(p){return '<a href="product.html?id='+p.id+'" style="display:flex;flex-direction:column;gap:14px"><div style="position:relative"><img src="'+p.img+'" alt="'+p.name+'" style="width:100%;aspect-ratio:4/3.2;object-fit:cover;border-radius:4px;display:block">'+(p.badge?'<span style="position:absolute;top:14px;left:14px;background:#F5F3EF;font-size:12px;padding:5px 10px;border-radius:2px;font-weight:500">'+p.badge+'</span>':'')+'</div><div style="display:flex;flex-direction:column;gap:4px"><span style="font-size:16px;font-weight:600">'+p.name+'</span><span style="font-size:14px;color:#5E625C">'+p.sub+'</span></div><span style="font-size:16px;font-weight:500">'+eur(p.price)+'</span></a>';}).join('');
+  }
+  var cat=new URLSearchParams(location.search).get('c')||'';
+  document.querySelectorAll('.tabs .pill').forEach(function(b){b.addEventListener('click',function(){cat=b.dataset.cat;history.replaceState(null,'',cat?'?c='+cat:'assortiment.html');draw(cat);});});
+  draw(cat);
+})();
+</script>
+
+</body>
+</html>
