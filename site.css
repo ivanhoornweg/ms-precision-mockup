@@ -396,3 +396,4 @@ button{font-family:inherit;color:inherit}
 @media (max-width:600px){.plp-grid{grid-template-columns:1fr}}
 .compare-bar[hidden]{display:none}
 .nav-link{white-space:nowrap}
+.pcard{position:relative}
